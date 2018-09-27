@@ -20,6 +20,11 @@ $ npm install
 $ npm install -g hexo-cli
 ```
 
+로컬에서 커밋하다가 정체 탄로나기 전에 이런 거 넣어둬...
+```bash
+$ git config user.name "빵순이" && git config user.email "빵야빵야@gmail.com"
+```
+
 ### 사용
 기본적인 스텝은 이렇습니다. 
 
