@@ -33,7 +33,7 @@ new_post_name: :title.md # File name of new posts
 default_layout: post
 titlecase: false # Transform title into titlecase
 external_link: true # Open external links in new tab
-filename_case: 0
+filename_case: 1
 render_drafts: false
 post_asset_folder: false
 relative_link: false
@@ -78,6 +78,6 @@ theme: maupassant
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repo: https://ba9uette@github.com/GontranCherrier/gontranCherrier.github.io.git
+  repo: https://github.com/gontrancherrier/gontrancherrier.github.io.git
   branch: master
-  message: hexo deploy
+  message: hexo deploy {{ now('YYYY-MM-DD HH:mm:ss') }}
